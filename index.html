@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <title>CV</title>
+    <meta name="description" content="some some some">
+    <meta name="author" content="some">
+    <meta name="keywords" content="some, some, some">
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv/html5shiv.js" type="text/javascript"></script>
+	<script src="js/html5shiv/html5shiv-printshiv.js" type="text/javascript"></script>
+	<style type="text/css">.site_nav { border-bottom: 1px solid #d4d4d4; }</style>
+	<![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="fontello/css/-ontello.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/progressbar.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container">
+
+	<div class="upbtnwrapp"><div class="upbtn"><span class="icon-up-open-big"></span></div></div>
+
+	<!-- NAVIGATION -->
+	<nav class="site_nav" id="site_nav">
+	  <ul class="">
+            <li><a href="#about_me">A propos de moi</a></li>
+            <li><a href="#my_expertise">Compétence</a></li>
+            <li><a href="#experience">Expérience professionnelle</a></li>
+            <li><a href="#education">Formation</a></li>
+          </ul>
+	</nav> <!-- /site_nav -->
+	<div id="aftermenuspace"></div>
+	<!-- HEADER -->
+	<header class="site_header centerise borderbtn">
+          <div id="logoline"><h1>ANTHONY HAMON</h1></div>
+          <h2>Développeur</h2>
+        </header> <!-- /site_header -->
+	<!-- end HEADER -->
+	<div class="container-fluid page">
+
+	  <!-- ABOUT ME -->
+	  <section class="row-fluid about_me" id="about_me">
+	    <aside class="span3 aside_el">
+              <h2>A propos de moi</h2>
+            </aside>
+	    <article class="span6 borderleft par_el">
+              <p>Passionné par l'informatique depuis toujours, j'aime cultiver l'éclectisme dans ce domaine. Je m'intéresse aussi bien au développement web frontend / backend, qu'à l'administration, aux bases de données et à bien d'autres choses encore.</p>
+            </article>
+	    <div class="span3 cont_info">
+	      <div class="soc">
+		<ul>
+                  <li><a href="https://www.linkedin.com/pub/anthony-hamon/96/95a/ab9"><img src="img/icons/linkedin.png" alt="" /></a></li>
+                  <li><a href="https://github.com/antham"><img src="img/icons/github.png" alt="" /></a></li>
+                </ul>
+	      </div>
+	      <div class="info">
+                <ul>
+                  <li><span class="icon-up-dir"></span><a>4 ans d'expérience</a></li>
+                  <li><span class="icon-location"></span><a>Nantes</a></li>
+                  <style>
+                    #mail::after {
+                    content: attr(data-3) "." attr(data-4);
+                    }
+                    #mail::before {
+                    content: attr(data-1) "." attr(data-2) "\0040";
+                    }
+                  </style>
+                  <li><span class="icon-mail"></span><a id="mail" data-1="hamon" data-2="anth" data-3="gmail" data-4="com"></a></li>
+		</ul>
+	      </div>
+	    </div> <!-- /cont_info -->
+	  </section> <!-- /about_me -->
+	  <!-- end ABOUT ME -->
+
+	  <!-- MY EXPERTISE -->
+	  <section class="row-fluid my_expertise" id="my_expertise">
+	    <aside class="span3 aside_el">
+              <h2>Compétences</h2>
+            </aside>
+            <article class="span4 borderleft par_el">
+              <p>En entreprise :</p>
+              <p>
+                J'ai développé une bonne connaissance des frameworks php symfony1.4 et Symfony 2. J'ai pû également développer en python avec django.
+              </p>
+              <p>
+                Concernant le javascript, j'ai utilisé angularjs sur différents projets également.
+              </p>
+              <p>
+                J'ai eu la charge de développer et maintenir une application distribuée de scraping en php (RabbitMQ, ElasticSearch, MySQL, Memcached et une quarantaine de serveurs de scraping) avec des problématiques sur les contraintes de volumes de données à traiter et sur les contraintes de blocages de sites tierces.
+              </p>
+              <p>Projets parallèles personnels :</p>
+              <p>J'ai développé une petite application mobile sous cordova avec le framework ionic et un backend comprenant des scrapers rss et une api restful développée avec django-rest.</p>
+              <p>J'ai développée une appli web avec laravel.</p>
+              <p>Je porte un grand intérêt pour la programmation fonctionnelle, en particulier clojure et son écosystème, j'expérimente le langage et j'ai développé des scrapers avec.</p>
+            </article>
+	    <div class="span5 skill_level">
+              <h4>Php</h4>
+              <div class="progressbar percent_100">
+		<div class="progressbar-inner"></div>
+	      </div>
+              <h4>Symfony 2</h4>
+	      <div class="progressbar percent_100">
+		<div class="progressbar-inner"></div>
+              </div>
+	      <h4>Javascript</h4>
+              <div class="progressbar percent_100">
+		<div class="progressbar-inner"></div>
+              </div>
+              <h4>AngularJS</h4>
+              <div class="progressbar percent_80">
+		<div class="progressbar-inner"></div>
+              </div>
+              <h4>ElasticSearch</h4>
+              <div class="progressbar percent_70">
+		<div class="progressbar-inner"></div>
+              </div>
+              <h4>Redis</h4>
+              <div class="progressbar percent_70">
+		<div class="progressbar-inner"></div>
+              </div>
+              <h4>Laravel</h4>
+              <div class="progressbar percent_50">
+		<div class="progressbar-inner"></div>
+              </div>
+              <h4>Django</h4>
+              <div class="progressbar percent_40">
+		<div class="progressbar-inner"></div>
+              </div>
+              <h4>Clojure</h4>
+              <div class="progressbar percent_30">
+		<div class="progressbar-inner"></div>
+              </div>
+            </div> <!-- /skill_level -->
+	  </section> <!-- /my_expertise -->
+	  <!-- end MY EXPERTISE -->
+
+	  <!-- EXPERIENCE -->
+	  <section class="row-fluid experience" id="experience">
+	    <aside class="span3 aside_el">
+              <h2>Expérience professionnelle</h2>
+            </aside>
+	    <div class="span9">
+	      <div class="row-fluid">
+		<article class="span12  borderleft par_el in_spacing">
+                  <span class="period">Sep. 2011 <br />Sep. 2014</span>
+		  <div class="bigspacing">
+		    <header>
+                      <h2>Entreprise basée</h2>
+                      <h2>à Paris</h2>
+                      <h3>Lead développeur</h3>
+		    </header>
+                    <p>Réécriture et ajout de fonctionnalités sur une application distribuée écrite avec Symfony1.4 destinée à parcourir le web pour récolter des urls : 100 millions d'urls stockées par semaine, 60 000 recherches webs effectuées chaque jour sur google, bing, yahoo</p>
+                    <p>Développement des fonctionnalités de récupération de données et d'analyse côté backend, développement du frontal web servant à interagir avec les données récupérées par le backend</p>
+                    <p>Maintenance d'une stack applicative comprenant un cluster de 3 serveurs avec Elasticsearch, un serveur avec RabbitMQ, un serveur avec Memcached, un serveur avec MySQL et une quarantaine de serveurs scrapers exécutant l'application de scraping en php, tous les serveurs tournant sous Ubuntu</p>
+		  </div>
+		</article>
+	      </div>
+	      <div class="row-fluid">
+		<article class="span12  borderleft par_el in_spacing">
+                  <span class="period">Jui. 2010 <br />Août 2011</span>
+		  <div class="bigspacing">
+		    <header>
+                      <h2>KnpLabs</h2>
+                      <h3>Développeur</h3>
+		    </header>
+                    <p>Développement de sites webs et d'intranets en php avec le framework Symfony2, notamment le site web exercice.com et une application destinée aux directeurs juridiques</p>
+                    <p>Développement d'un intranet en python avec le framework Django, destiné à la branche graphique de KnpLabs à des fins promotionnelles, pour présenter les réalisations de l'entreprise</p>
+                    <p>Développement et maintenances de sites webs en Symfony 1.4</p>
+                    <p>Développement en JavaScript d'une extension pour le navigateur Firefox et de son api en Symfony 1.4</p>
+                    <p>Ajout de fonctionnalités et correction de bugs pour une application en C++ développée avec le framework Qt et destinée aux sténodactylo</p>
+		  </div>
+		</article>
+	      </div>
+          </section> <!-- /experience -->
+	  <!-- end EXPERIENCE -->
+
+	  <!-- EDUCATION -->
+	  <section class="row-fluid education" id="education">
+	    <aside class="span3 aside_el">
+              <h2>Formation</h2>
+            </aside>
+	    <div class="span9">
+	      <div class="row-fluid">
+		<article class="span12  borderleft par_el in_spacing">
+                  <span class="period">Sep. 2013 <br />Sep. 2014</span>
+		  <div class="bigspacing">
+		    <header>
+                      <h2>CNAM de Nantes</h2>
+                      <h3>Concepteur architecte en alternance (Bac +4)</h3>
+		    </header>
+                    <p></p>
+                    <p></p>
+		  </div>
+		</article>
+	      </div>
+	      <div class="row-fluid">
+		<article class="span12  borderleft par_el in_spacingbottom">
+                  <span class="period">Oct. 2012 <br />Sep. 2013</span>
+		  <div class="bigspacing">
+		    <header>
+                      <h2>CNAM de Nantes</h2>
+                      <h3>License d'informatique générale en alternance</h3>
+		    </header>
+                  </div>
+		</article>
+              </div>
+	      <div class="row-fluid">
+		<article class="span12  borderleft par_el in_spacingbottom">
+                  <span class="period">Mars 2009 <br /> Mars 2010</span>
+		  <div class="bigspacing">
+		    <header>
+                      <h2>CNAM de Nantes</h2>
+                      <h3>Formation d'Analyste-programmeur (Bac +2)</h3>
+		    </header>
+                  </div>
+		</article>
+              </div>
+	    </div>
+	  </section> <!-- /education -->
+          <!-- end EDUCATION -->
+        </div> <!-- /page -->
+	<footer class="row-fluid siteFooter">
+        </footer>
+      </div> <!-- /container -->
+    </div> <!-- /wrapper -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/retina.js"></script>
+    <script>
+      $(document).ready(function(){
+      $('.comment_form input, .comment_form textarea').focus(function () {
+      $(this).css({"-webkit-box-shadow": "0px 0px 0px rgba(0, 0, 0, 0)", "-moz-box-shadow": "0px 0px 0px rgba(0, 0, 0, 0)", "box-shadow": "0px 0px 0px rgba(0, 0, 0, 0)", "border": "1px solid #999"});
+      });
+      $('.comment_form input, .comment_form textarea').blur(function () {
+      $(this).css({"-webkit-box-shadow": "0px 0px 0px rgba(0, 0, 0, 0)", "-moz-box-shadow": "0px 0px 0px rgba(0, 0, 0, 0)", "box-shadow": "0px 0px 0px rgba(0, 0, 0, 0)", "border": "1px solid #e0e0e0"});
+      });
+      });
+      $(".send-button").click(function () {
+      if ( $( '.comment_form' ).parsley('validate') ) {
+      var form_name = $("#form_name").val();
+      var form_email = $("#form_email").val();
+      var form_message = $("#form_message").val();
+      $.post("php/mailer.php", { name : form_name , email : form_email , message : form_message }, function(results){
+      alert(results);
+      });
+      }
+      });
+      $(window).on('load resize', function () {
+      current_width = $(window).width();
+      if ( current_width < 767 ) {
+			   $("br").hide();
+		           } else {
+			   $("br").show();
+		           }
+	                   });
+
+	                   // Cache selectors
+	                   if ( $(window).width() > 940 ) {
+	var lastId,
+	topMenu = $("#site_nav")
+	topMenuHeight = topMenu.outerHeight()+40,
+	// All list items
+	menuItems = topMenu.find("a"),
+	// Anchors corresponding to menu items
+	scrollItems = menuItems.map(function(){
+	var item = $($(this).attr("href"));
+	if (item.length) { return item; }
+	});
+	} else {
+	var lastId,
+	topMenu = $("#site_nav")
+	topMenuHeight = topMenu.outerHeight()-140,
+	// All list items
+	menuItems = topMenu.find("a"),
+	// Anchors corresponding to menu items
+	scrollItems = menuItems.map(function(){
+	var item = $($(this).attr("href"));
+	if (item.length) { return item; }
+	});
+
+	}
+
+
+	// Bind click handler to menu items
+	// so we can get a fancy scroll animation
+	menuItems.click(function(e){
+	var href = $(this).attr("href"),
+	offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+	$('html, body').stop().animate({
+	scrollTop: offsetTop
+	}, 300);
+	e.preventDefault();
+	});
+
+	// Bind to scroll
+	$(window).scroll(function(){
+	// Get container scroll position
+	var fromTop = $(this).scrollTop()+topMenuHeight;
+
+	// Get id of current scroll item
+	var cur = scrollItems.map(function(){
+	if ($(this).offset().top < fromTop)
+		                   return this;
+	                           });
+	                           // Get the id of the current element
+	                           cur = cur[cur.length-1];
+	                           var id = cur && cur.length ? cur[0].id : "";
+
+	                           if (lastId !== id) {
+		                   lastId = id;
+		                   // Set/remove active class
+		                   menuItems
+			           .parent().removeClass("active")
+			           .end().filter("[href=#"+id+"]").parent().addClass("active");
+	                           }
+	                           });// $('.scrollup').fadeIn();
+
+	                           $(window).scroll(function(){
+		                   var pos = $(window).scrollTop();
+		                   if (pos > 55 && current_width > 940) {
+	$(".site_nav").css({
+	"position": "fixed",
+	"top":    "0",
+	"width":    "940px",
+	"margin-bottom":    "55px",
+	});
+	$("#aftermenuspace").css({
+	"height":    "55px",
+	});
+	} else {
+	$(".site_nav").css({
+	"position": "relative",
+	"margin-bottom":    "0",
+	"width":    "100%",
+	});
+	$("#aftermenuspace").css({
+	"height":    "0",
+	});
+	}
+	if ( pos > 600 ) { $('.upbtn').fadeIn();} else { $('.upbtn').fadeOut(); }
+	});
+
+	$('.upbtn').click(function(){
+	$("html, body").animate({ scrollTop: 0 }, 600);
+	return false;
+	});
+
+</script>
+</body>
+</html>
